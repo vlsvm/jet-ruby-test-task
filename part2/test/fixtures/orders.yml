@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first-name: MyString
+  last-name: MyString
+  patronymic: MyString
+  phone-number: MyString
+  email: MyString
+  weight: 
+  lenght: 
+  width: 
+  height: 
+  from: MyString
+  to: MyString
+  price: 1.5
+
+two:
+  first-name: MyString
+  last-name: MyString
+  patronymic: MyString
+  phone-number: MyString
+  email: MyString
+  weight: 
+  lenght: 
+  width: 
+  height: 
+  from: MyString
+  to: MyString
+  price: 1.5

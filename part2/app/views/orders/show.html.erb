@@ -1,0 +1,56 @@
+<div class="title_bar" id="title_bar">
+        <div id="titlebar_left">
+          <h2 id="page_title">Created order</h2>
+        </div>
+        
+</div>
+
+
+<div id="active_admin_content">
+<a href="/">Create new order </a><br><a href="/admin"> Admin page</a>
+<div class="blank_slate_container">
+<div class="blank_slate">
+<div>
+   Имя: <%= @order.first_name %>
+</div>
+<div>
+    Фамилия: <%= @order.last_name %>
+</div>
+<div>
+    Отчество: <%= @order.patronymic %>
+</div>
+<div>
+    Номер телефона: <%= @order.phone_number %>
+</div>
+<div>
+    Email: <%= @order.email %>
+</div>
+<div>
+    Вес: <%= @order.weight %>
+</div>
+<div>
+    Длина: <%= @order.lenght %>
+</div>
+<div>
+    Ширина: <%= @order.width %>
+</div>
+<div>
+   Высота: <%= @order.height %>
+</div>
+<div>
+    Адрес отправления: <%= @order.from %>
+</div>
+<div>
+    Адрес назначения: <%= @order.to %>
+</div>
+<div>
+Расстояние: <%= @order.distance %>
+</div>
+<div>
+Цена: <%= @order.price %>
+</div>
+
+</div>
+
+</div>
+</div>

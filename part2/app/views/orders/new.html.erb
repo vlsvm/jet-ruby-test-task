@@ -1,0 +1,70 @@
+<div class="title_bar" id="title_bar">
+        <div id="titlebar_left">
+          <h2 id="page_title">Make Order</h2>
+        </div>
+</div>
+
+<div id="active_admin_content">
+
+<%= form_with model: @order do |form| %>
+  <div>
+    Name<br>
+    <%= form.text_field :first_name %>
+  </div>
+
+  <div>
+    Last name<br>
+    <%= form.text_field :last_name %>
+  </div>
+
+  <div>
+    Patronymic<br>
+    <%= form.text_field :patronymic %>
+  </div>
+
+  <div>
+    Phone<br>
+    <%= form.text_field :phone_number %>
+  </div>
+
+  <div>
+    E-mail<br>
+    <%= form.text_field :email %>
+  </div>
+
+  <div>
+    Weight<br>
+    <%= form.text_field :weight %>
+  </div>
+
+  <div>
+    Length<br>
+    <%= form.text_field :lenght %>
+  </div>
+
+  <div>
+    Width<br>
+    <%= form.text_field :width %>
+  </div>
+
+  <div>
+    Height<br>
+    <%= form.text_field :height %>
+  </div>
+
+  <div>
+    Departure address<br>
+    <%= form.text_area :from %>
+  </div>
+
+  <div>
+    Arrival address<br>
+    <%= form.text_area :to %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+</div>
+</div>
+<% end %>
